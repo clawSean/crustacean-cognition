@@ -190,6 +190,8 @@ workspace/
 
 **No `entities/` directory** — Merged into `knowledge/topics/`. The entity/topic boundary is subjective and creates routing confusion. A topic file can cover a company, a place, or a concept equally well.
 
+**Session-memory hook compatibility** — OpenClaw's bundled `session-memory` hook writes a short session summary to `memory/` when `/new` is issued (e.g., `memory/2026-03-16-api-design.md`). These are redundant with what Collect already extracts from full session transcripts. The architecture handles this intentionally: Collect ignores them (it reads the richer source), and Compile sweeps them into `archive/daily/` during the weekly pass. No conflict, no duplicate processing — just let them accumulate and Compile cleans up.
+
 ---
 
 ## Session Loading
