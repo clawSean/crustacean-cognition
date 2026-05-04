@@ -45,9 +45,11 @@ Opus is used because lessons, graduation, contradiction resolution, and pattern 
 
 ---
 
-## Phase 0: Consolidate Manifest Review
+## Phase 0: Consolidate Manifest Review _(disabled — skip until Consolidate has run at least once)_
 
-This phase is mandatory whenever Consolidate exists.
+> **Status: OFF.** Re-enable once `archive/consolidate-manifests/` exists and has at least one manifest. Until then skip this phase entirely and proceed to Phase 1.
+
+This phase is mandatory whenever Consolidate has run at least once.
 
 ### 0.1 Read Recent Manifests
 
@@ -97,7 +99,7 @@ The synthesis core — manifest review, lesson extraction, graduation, and contr
 
 If context fills during the run, prioritize in this order:
 
-1. Phase 0 (manifest review) — always complete
+1. Phase 0 (manifest review) — skip while disabled; complete once enabled
 2. Phase 4 (lesson extraction) — always complete
 3. Phase 5 (graduation) — complete if context allows
 4. Phase 6 (contradictions, patterns) — complete if context allows

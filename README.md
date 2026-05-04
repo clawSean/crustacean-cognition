@@ -302,11 +302,23 @@ Detailed instructions for each stage live in [`pipeline/`](./pipeline/):
 
 ---
 
+## Future: Correlate (6th C)
+
+> *Speculative — not yet implemented.*
+
+**Correlate** is a potential future stage focused on graphically organized knowledge — building and maintaining a graph of relationships between entities, topics, lessons, and events. Where Compile synthesizes linearly (lessons, graduation, digest), Correlate would synthesize structurally: "these three things are connected, this concept links to that person, this lesson reinforces that procedure."
+
+Possible outputs: a knowledge graph, entity relationship maps, backlink networks, or structured topic clusters that semantic search alone can't surface. The idea is that pattern recognition across the whole knowledge base requires a different representation than flat markdown files.
+
+File this under "when the flat file system starts feeling like the bottleneck."
+
+---
+
 ## Why "Crustacean"?
 
 Because lobsters never stop growing. They molt — shed their old shell when it gets too tight, grow a new one, and keep going. That's what this memory system does. Old content gets archived, new structure forms, and the agent keeps evolving.
 
-Also, the 5C's: **C**ollect, **C**urate, **C**onsolidate, **C**ompile, **C**alibrate. C is for Crustacean. 🦀
+Also, the 5C's (and maybe someday 6): **C**ollect, **C**urate, **C**onsolidate, **C**ompile, **C**alibrate — and **C**orrelate when the graph beckons. C is for Crustacean. 🦀
 
 ---
 
