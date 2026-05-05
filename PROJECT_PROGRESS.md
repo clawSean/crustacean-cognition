@@ -333,15 +333,15 @@ Reference plans from Claude Foreman Opus:
 
 ## Acceptance Criteria
 
-- [ ] `CONSOLIDATE.md` exists and defines Consolidate as mover/indexer, not synthesizer.
-- [ ] `CONSOLIDATE.md` requires manifest writing, pre-state snapshot, hashes, and preservation invariant.
-- [ ] `CONSOLIDATE.md` enumerates forbidden `MEMORY.md` sections and foundation-file write blocklist.
-- [ ] `HOW-IT-WORKS.md` reflects the new 5C pipeline/order.
-- [ ] `CURATE.md` prevents future MEMORY.md bloat by default.
-- [ ] `COMPILE.md` adds Phase 0: read recent Consolidate manifests, inspect destinations, and verify hash continuity.
-- [ ] `COMPILE.md` no longer treats MEMORY.md pruning as core weekly work.
-- [ ] `CALIBRATE.md` is learning/procedure-focused and reviews Consolidate behavior monthly.
-- [ ] `CALIBRATE.md` drains `archive/consolidate-manifests/RECOMMENDATIONS.md`.
+- [x] `CONSOLIDATE.md` exists and defines Consolidate as mover/indexer, not synthesizer.
+- [x] `CONSOLIDATE.md` requires manifest writing, pre-state snapshot, hashes, and preservation invariant.
+- [x] `CONSOLIDATE.md` enumerates forbidden `MEMORY.md` sections and foundation-file write blocklist.
+- [x] `HOW-IT-WORKS.md` reflects the new 5C pipeline/order.
+- [x] `CURATE.md` prevents future MEMORY.md bloat by default.
+- [x] `COMPILE.md` adds Phase 0: read recent Consolidate manifests, inspect destinations, and verify hash continuity. Phase 0 is intentionally disabled until manifests exist.
+- [x] `COMPILE.md` no longer treats MEMORY.md pruning as core weekly work.
+- [x] `CALIBRATE.md` is learning/procedure-focused and reviews Consolidate behavior monthly.
+- [x] `CALIBRATE.md` drains `archive/consolidate-manifests/RECOMMENDATIONS.md`.
 - [ ] Cron/schedule exists for Consolidate, if approved.
 - [ ] First Consolidate dry-run identifies concrete migrations out of `MEMORY.md`.
 - [ ] First applied Consolidate run moves ≤100 lines and does not chase the final target in one pass.
@@ -369,3 +369,9 @@ Reference plans from Claude Foreman Opus:
 - Added reminder to update the work-Clawdia reminders skill once that Claude CLI cron pattern is figured out.
 - JPop requested 2+ additional Opus/max-deliberation Foreman passes over the full docs/current `MEMORY.md` to identify first relocation targets and final hardening. Three were launched; two produced saved plans despite hitting Claude CLI limits at the end. Saved repo copies under `research/`. Plan updated with stricter v1: `MEMORY.md` only, byte-preserving whole-section moves, pre-state snapshots, hashes, locked pointer format, Compile Phase 0 hash/drift checks, and conservative first-run targets.
 - Implementation doc pass completed after Opus routes were blocked by Claude credential/subscription limits; applied the Foreman-derived edits directly on GPT-5.5. Docs now define 5C lanes across README and pipeline docs, add `pipeline/CONSOLIDATE.md`, and rebalance Curate/Consolidate/Compile/Calibrate responsibilities. No live memory files or cron config touched.
+
+### 2026-05-03
+
+- Opus Foreman synced finalized 5C pipeline docs from `crustacean-cognition` into live `memory/.system/` after confirming no live-only drift. Live files updated: `CALIBRATE.md`, `COMPILE.md`, `CURATE.md`, `HOW-IT-WORKS.md`, and new `CONSOLIDATE.md`; `COLLECT.md` was already identical.
+- Compile Phase 0 / Consolidate manifest review is intentionally disabled until `archive/consolidate-manifests/` exists and has at least one manifest, so weekly Compile does not treat a missing Consolidate history as a blocker.
+- Added speculative future **Correlate / 6th C** note to the repo README for graphically organized relationship synthesis once flat files become the bottleneck.
