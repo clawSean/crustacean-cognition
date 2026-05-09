@@ -1,6 +1,6 @@
 # Memory Pipeline Consolidate Initiative — PROJECT_PROGRESS
 
-**Status:** scoped
+**Status:** PR open
 **Started:** 2026-05-02 23:40 UTC
 **Owner:** JPop / Sean
 **Context:** `MEMORY.md` is exceeding its intended ~500-line working-memory/index role. Need a cleaner division of responsibilities across the memory pipeline.
@@ -375,3 +375,9 @@ Reference plans from Claude Foreman Opus:
 - Opus Foreman synced finalized 5C pipeline docs from `crustacean-cognition` into live `memory/.system/` after confirming no live-only drift. Live files updated: `CALIBRATE.md`, `COMPILE.md`, `CURATE.md`, `HOW-IT-WORKS.md`, and new `CONSOLIDATE.md`; `COLLECT.md` was already identical.
 - Compile Phase 0 / Consolidate manifest review is intentionally disabled until `archive/consolidate-manifests/` exists and has at least one manifest, so weekly Compile does not treat a missing Consolidate history as a blocker.
 - Added speculative future **Correlate / 6th C** note to the repo README for graphically organized relationship synthesis once flat files become the bottleneck.
+
+### 2026-05-05
+
+- Pushed the latest 5C / Consolidate doc set and opened `clawSean/crustacean-cognition` PR **#1**.
+- Current PR theme: calibrated 5C lane balancing, `CONSOLIDATE`, and the future Correlate note.
+- Live memory-system docs were already synced before the PR, so the open loop is now review/follow-up plus deciding when to schedule the first real Consolidate dry run.
